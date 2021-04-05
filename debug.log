@@ -1,0 +1,6 @@
+[1010/164550.323:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1024/141753.203:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\User\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\a40f2d22-f726-49a1-9be1-72671d7b72db: Системе не удается найти указанный путь. (0x3)
+[1024/142259.217:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1101/190208.815:ERROR:settings.cc(320)] Settings magic is not 1129342067
+[1101/191208.847:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1105/173204.601:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)

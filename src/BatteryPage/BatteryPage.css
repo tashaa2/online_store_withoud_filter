@@ -1,0 +1,30 @@
+.autopage_size {
+    width: 100%;
+    margin-bottom: 30px;   
+}
+
+.main {
+    display: flex;
+    flex-direction: row;    
+}
+
+.battery-for-car-container_size {
+    width: 70%;     
+}
+
+.battery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}
+
+.battery_size {
+    width: 99%;    
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+

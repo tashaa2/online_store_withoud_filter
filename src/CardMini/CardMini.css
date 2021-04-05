@@ -1,0 +1,64 @@
+.cardmini_size {
+    width: 30%;
+    height: 550px;
+    margin-bottom: 20px;       
+}
+
+.cardmini {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardmini:hover {
+    border-bottom: gray 1px solid;
+    border-right: gray 1px solid;
+    box-shadow: 5px 5px 10px rgb(96, 113, 219);
+}
+
+.cardmini__button-buy {
+    height: 30px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;    
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #FDBE33 #000 #D77206;
+    border-radius: 6px;
+    background: linear-gradient(#F3AE0F, #E38916) #E38916;
+    transition: 0.2s;
+}
+
+.cardmini__button-buy:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+.cardmini__button-buy:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+
+.text-for-cardMini {
+    font-size: 16px;
+    color: rgb(14, 29, 235);
+    font-weight: 500;
+}
+
+@media (max-width:720px) {
+
+    .text-for-cardMini {
+        font-size: 14px;        
+    }
+
+    .cardmini_size {        
+        height: 500px;               
+    }
+    
+}
+
+@media (max-width:460px) {
+
+    .text-for-cardMini {
+        font-size: 11px;        
+    }
+
+    .cardmini_size {        
+        height: 450px;               
+    }
+    
+}

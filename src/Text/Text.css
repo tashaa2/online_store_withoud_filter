@@ -1,0 +1,36 @@
+.section-text-container_size {
+    height: 500px;
+    width: 100%;
+}
+
+.section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.section-text-container_back {    
+    background: linear-gradient(to right, rgb(195, 245, 190) 10%, rgb(140, 230, 132) 50%, rgb(102, 199, 94) 90%);
+}
+
+.section-text_size {
+    height: 85%;
+    width: 95%;
+}
+
+.text-subtitle_indent {
+    text-indent: 5%;
+}
+
+
+
+
+@media (max-width:460px) {
+
+    .section-text-container_size {
+        height: 450px;        
+    }    
+    
+}
+

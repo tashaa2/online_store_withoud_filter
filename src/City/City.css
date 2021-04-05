@@ -1,0 +1,25 @@
+li {
+    list-style-type: none;
+}
+
+.flex-container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.block-opasity {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 200;
+}
+
+.text-subtitle_color-white {
+    color: white;
+}
+
+

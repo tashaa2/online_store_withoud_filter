@@ -1,0 +1,176 @@
+.basket-wrapper_size {    
+    width: 100%;
+}
+
+.basket__card {
+    width: 100%;
+    height: 200px;    
+    display: flex;
+    justify-content: space-between;
+}
+
+.basket__block-info {    
+    width: 70%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.basket {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.basket__button {
+    width: 15px;
+    height: 20px;    
+}
+
+.basket_size {
+    width: 90%;
+    height: 95%;
+}
+
+.basket__count {
+    width: 50px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.basket__image {
+    width: 30%;       
+}
+
+.basket__block-zakaz {
+    width: 100%;
+    height: 400px;       
+}
+
+.basket__forma {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+
+.basket__button-del {    
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;    
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    color: #000;
+    outline: none;
+    border: 1px solid rgba(110,121,128,.8);
+    border-top-color: rgba(0,0,0,.3);
+    border-radius: 5px;
+    background: rgb(206, 220, 231) linear-gradient(rgb(206,220,231), rgb(89,106,114));
+    box-shadow:
+        0 -1px rgba(10,21,28,.9) inset,
+        0 1px rgba(255,255,255,.5) inset;
+}
+
+.basket__button-del:hover {
+    background: linear-gradient(#d2dfea, #71828c);
+}
+
+.basket__button-del:active {
+    line-height: 2.6em;
+    background: linear-gradient(#bac6cf, #c5d3de 20%, #71828c);
+    box-shadow: 0 -1px rgba(255,255,255,.4) inset;
+}
+
+.basket__button-del:before {
+    content: "";
+    position: absolute;
+    top: -10px; right: -10px; bottom: -10px; left: -10px;
+    z-index: -1;
+    border-radius: 8px;
+    background: linear-gradient(rgba(200,200,200,.5), rgba(240,240,240,.5));
+}
+
+.basket__button-zakaz {    
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  transition: .5s;
+  width: 200px;    
+  height: 70px;     
+} 
+
+.basket__button-zakaz:hover {
+    background-position: right center;
+}
+
+.text-title-zakaz {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.basket__input {
+    width: 400px;
+    height: 30px;    
+    border-radius: 20px;
+    border: none;
+    border-bottom: 2px solid green;
+    background-color: rgb(218, 245, 239);
+    padding-left: 20px;
+}
+
+
+@media (max-width:560px) {
+
+    .basket__card {        
+        height: 150px;         
+    }
+
+    .basket__block-info {        
+        height: 120px;
+        flex-direction: column;        
+    }
+
+    .basket__input {
+        width: 90%;
+    }  
+    
+    .text-title-zakaz {
+        font-size: 12px;        
+    } 
+    
+    .basket__button-zakaz {        
+        width: 120px;    
+        height: 30px; 
+        padding: 0;
+        margin: 0;    
+    } 
+}
+
+@media (max-width:460px) {
+
+    .basket__card {        
+        height: 120px;         
+    }
+
+    .basket__block-info {        
+        height: 100px;              
+    }   
+}
+
